@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 2s all;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  /* background: url(./img/Arena\ Art\ -\ Naruto_\ Rise\ of\ a\ Ninja\ Art\ Gallery.jpeg); */
+  background: url(./img/background.jpeg);
+  background-size: 100vw 100vh;
+}
+#container
+{
+  width: 460px;
+  margin: auto;
+  /* padding-top: 5pc; */
+  /* background: black; */
+  margin-top: 5pc;
+}
+#container img
+{
+  height: 150px;
+  width: 110px; /* 600 = 150px x 4 */
+  box-shadow: 2px  2px 5px black;
+  z-index: 1000;
+  padding-left: 5px;
+}
+#play,
+#pause {
+	float: left;
+	width: 40px;
+  margin-top: -0.5pc;
+  margin-left: 1pc;
+  transition: 2s ;
+}
+#play:hover,
+#pause:hover {
+	cursor: pointer;
+}
+#pause {
+	display: none;
+}
+img
+{
+  transition: 1s all;
+  cursor: pointer;
+}
+p
+{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 1pc;
+  padding-left: 0.5pc;
+  font-size: 0.7rem;
+
+}
